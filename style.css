@@ -1,0 +1,31 @@
+.calc{
+    width: 400px;
+    height:600px;
+    border-radius:10px;
+    border: solid 1px;
+}
+#screen{
+    width:360px;
+    height: 150px;
+    border:solid 1px;
+    margin:20px;
+    margin-top: 40px;
+    pointer-events: none;
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: right;
+}
+.btn{
+    width: 77px;
+    height: 58px;
+    margin-left: 16px;
+    margin-top: 16px;
+    border: none;
+    border-radius:30px;
+    font-size: x-large;
+    font-weight: bolder;
+}
+#result{
+    background-color: orangered;
+    color:white ;
+}
