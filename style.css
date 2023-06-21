@@ -2,6 +2,7 @@
     width: 400px;
     height:600px;
     border-radius:10px;
+    margin: auto;
     border: solid 1px;
 }
 #screen{
