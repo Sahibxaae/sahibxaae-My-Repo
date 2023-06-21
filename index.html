@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Realme Calculator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <script src="script.js"></script>
+    <div class="main-body">
+        <div class="calc">
+            <div class="output">
+                <input type="text" id="screen">
+                <div class="row">
+                    <button class="btn" onclick="clrScr('')">C</button>
+                    <button class="btn" onclick="btnclick('%')">%</button>
+                    <button class="btn" onclick="delClick()">⌫</button>
+                    <button class="btn" onclick="btnclick('&divide')">÷</button>
+                </div>
+                <div class="row">
+                    <button class="btn" onclick="btnclick(7)">7</button>
+                    <button class="btn" onclick="btnclick(8)">8</button>
+                    <button class="btn" onclick="btnclick(9)">9</button>
+                    <button class="btn" onclick="btnclick('&divide')">X</button>
+                </div>
+                <div class="row">
+                    <button class="btn" onclick="btnclick(4)">4</button>
+                    <button class="btn" onclick="btnclick(5)">5</button>
+                    <button class="btn" onclick="btnclick(6)">6</button>
+                    <button class="btn" onclick="btnclick('-')">-</button>
+                </div>
+                <div class="row">
+                    <button class="btn" onclick="btnclick(1)">1</button>
+                    <button class="btn" onclick="btnclick(2)">2</button>
+                    <button class="btn" onclick="btnclick(3)">3</button>
+                    <button class="btn" onclick="btnclick('+')">+</button>
+                </div>
+                <div class="row">
+                    <button class="btn" onclick="btnclick('00')">00</button>
+                    <button class="btn" onclick="btnclick(0)">0</button>
+                    <button class="btn" onclick="btnclick('.')">.</button>
+                    <button class="btn" id="result" onclick="equalClick()">=</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
