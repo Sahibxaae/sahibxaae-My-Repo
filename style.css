@@ -3,12 +3,11 @@
     height:600px;
     border-radius:10px;
     margin: auto;
-    border: solid 1px;
 }
 #screen{
     width:360px;
     height: 150px;
-    border:solid 1px;
+    border:none;
     margin:20px;
     margin-top: 40px;
     pointer-events: none;
